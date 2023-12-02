@@ -1,0 +1,8 @@
+%{
+%}
+
+digito	[0-9]
+identificador [a-z][a-zA-Z0-9]{0,10}
+%%
+{digito}+		{printf("Es un Entero\n");}
+%%
